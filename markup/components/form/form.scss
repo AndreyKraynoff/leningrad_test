@@ -1,0 +1,16 @@
+@import 'media.scss';
+
+.form-wrapper{
+  flex-basis: 300px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 300px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 16px;
+  background: #fff;
+}
+.form-wrapper__title{
+  font-size: 24px;
+  font-family: 'OpenSans';
+  margin-bottom: 30px;
+}

@@ -1,0 +1,5 @@
+form: {
+    full:{
+      mod: 'full'
+    }
+}

@@ -1,0 +1,26 @@
+@media only screen and (min-width :  768px){
+.form-wrapper{
+ max-width: 600px;
+ flex-basis: 600px;
+  }
+.inline-inputs{
+display: flex;
+}
+.form-wrapper__ind{
+  text-align: center;
+  .inline-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      .TextInput{
+          width: calc(50% - 10px);
+      }
+      .btn{
+        width: calc(50% - 10px);
+      }
+      .custom-checbox-wrapper{
+        width: calc(50% - 10px);
+      }
+  }
+}
+}
